@@ -1,0 +1,23 @@
+html, body {
+    margin: 0;
+    background: #ccc;
+} 
+
+.sizes {
+    background : #f5d701;
+    width: 400px;
+    height: 300px;
+    padding: 20px 10px;
+    margin: 0 20px;
+    border: 2px solid #0f0;
+    float: left;
+    color: #0ec30e;
+    display: inline-block;
+}
+
+.parent {
+
+}
+.sizes {
+    background: rebeccapurple;
+}
