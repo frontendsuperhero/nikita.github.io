@@ -869,6 +869,7 @@ footer {
         .bookwinning__book-2 {
             display: none;
         }
+    }   
 
 @media screen and (max-width: 767px) {
         .container {
@@ -1011,3 +1012,128 @@ footer {
             text-align: center;
             padding-left: 0%;
         }
+
+        .buynow__text-1 {
+            font-size: 18px;
+            text-align: start;
+        }
+
+        .overview__text-1 {
+            text-align: left;
+        }
+
+        .overview__text-2 {
+            text-align: left;
+            font-size: 5px;
+        }
+
+        .complete__wrapper {
+            flex-direction: column;
+        }
+
+        .completeview__wrapper {
+            flex-direction: column;
+        }
+
+        .completeview__finaltips {
+            padding-left: 0%;
+        } 
+
+        .completeview__coprorate {
+            padding-left: 0%;
+        }
+
+        .buynow__text-2 {
+            font-size: 5px;
+            text-align: left;
+        }
+
+        .buildcareer__wrapper {
+            flex-direction: column;
+        }
+
+        .buildcareer__pic-1 {
+            max-width: 100%;
+            padding-left: 0%;
+        }
+
+        .socialpages__wrapper {
+            flex-direction: column;
+            max-width: 100%;
+        }
+
+        .testimonial__text-1 {
+            text-align: left;
+        }
+
+        .testimonial__text-2 {
+            font-size: 5px;
+            text-align: left;
+        }
+
+        .testimonial__pic-1 {
+            position: relative;
+            right: 70px;
+        }
+
+        .testimonialebook__text-1 {
+            text-align: left;
+            padding-left: 45px;
+            padding-top: 50px;
+        }
+
+        .testimonialebook__text-2 {
+            text-align: left;
+            padding-left: 65px
+        }
+
+        .testimonial {
+            height: 380px;
+        }
+
+        .contact__text-1 {
+            text-align: left;
+        }
+
+        .contact__text-2 {
+            text-align: left;
+            font-size: 5px;
+        }
+
+        .contactebook__left {
+            display: none;
+        }
+
+        .contactebook__right {
+           padding-left: 0%;
+        }
+
+        .contactebook__blok-1 {
+            width: 200px;
+            
+
+        }
+
+        .contactebook__blok-2 {
+            width: 200px;
+            
+        }
+
+        .contactebook__blok-3 {
+            width: 200px;
+        
+        }
+
+        .button__number-3 {
+            width: 212px;
+        }
+
+        .copyrights__wrapper {
+            flex-direction: column;
+        }
+
+        .copyrights__text-1 {
+            font-size: 11px;
+        }
+    }
+  
