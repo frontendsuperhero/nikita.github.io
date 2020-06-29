@@ -867,11 +867,13 @@ footer {
     .button__number-1 {
         margin-bottom: 10px;
         width: 190px;
+        margin: 0 auto;
     }
 
     .button__number-2 {
         margin: 0 auto;
         width: 189px;
+        margin: 0 auto;
     }
 
     .bookwinning__wrapper {
