@@ -854,10 +854,83 @@ footer {
 }         
 
 @media screen and (max-width: 768px) {
-
+    .button__wrapper {
+    flex-direction: column
 }
 
 @media screen and (max-width: 640px) {
-    
+    .button__wrapper {
+        flex-direction: column;
+        
+    }
+
+    .button__number-1 {
+        margin-bottom: 10px;
+        width: 203px;
+    }
+
+    .button__number-2 {
+        margin: 0 auto;
+        width: 200px;
+    }
+
+    .bookwinning__wrapper {
+        padding-bottom: 50px;
+    }
+
+    .completeview__wrapper {
+        flex-wrap: wrap;
+    }
+
+    .completeview__finaltips {
+        width: 100%;
+    }
+
+    .completeview__coprorate {
+        padding: 0%;
+    }
+
+    .completeview__finaltips {
+        padding: 0%;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .socialpages__text-1 {
+        padding: 0%;
+    }
+
+    .socialpages__text-3, .socialpages__text-5, .socialpages__text-7 {
+        padding: 0%;
+    }
+
+    .contactebook__left {
+        display: none;
+    }
+
+    .contactebook__right {
+        padding: 0%;
+    }
+
+    .button__number-3 {
+        margin-top: 50px;
+    }
+
+    .bookwinning__book-2 {
+        display: none;
+    }
+
+    .author__wrapper {
+        padding-bottom: 50px;
+    }
+
+    .complete__business {
+        padding-bottom: 30px;
+    }
+
+    .complete__text-16 {
+        padding: 0%;
+    }
+
 }
 
