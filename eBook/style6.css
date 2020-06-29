@@ -741,399 +741,123 @@ footer {
     border-color: #dddddd;
 }
 
-/*@media (max-width:960px){
-    .container {
-        max-width: 970px;
+@media screen and (max-width: 992px) {
+    .bookwinning__right {
+        display: none;
     }
+
+    .bookwinning__wrapper {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .author__left {
+        display: none;
+    }
+
+    .author__wrapper {
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    .author__text-1, .author__text-2, .author__text-3, .author__text-4, .author__text-5  {
+        padding: 0%;
+        
+        
+    }
+
+    .author__pic {
+        padding: 0%;
+        justify-content: center;
+    }
+
+    .complete__business  {
+        width: 50%;
+        text-align: center;
+    }
+
+    .complete__planing {
+        width: 50%;
+        text-align: center;
+    }
+
+    .complete__resources {
+        width: 50%;
+        text-align: center;
+    }
+
+    .complete__daily {
+        width: 50%;
+        text-align: center;
+    }
+
+    .complete__wrapper {
+        flex-wrap: wrap;
+    }
+
+    .buildcareer__pic-1 {
+        display: none;
+    }
+
+    .buildcareer__left {
+        display: none;
+    }
+
+    .buildcareer__right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .socialpages__wrapper {
+        flex-wrap: wrap;
+    }
+
+    .socialpages__blok-1, .socialpages__blok-2, .socialpages__blok-3, .socialpages__blok-4 {
+        width: 50%;
+        text-align: center;
+    }
+    
+    .contactebook__blok-1 {
+        width: 100%;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    .contactebook__left {
+        
+    }
+
+    .contactebook__wrapper {
+        flex-wrap: wrap;
+    }
+
+    .contactebook__right {
+        width: 100%;
+    }
+
+    .button__number-3 {
+        margin: 0 auto;
+    }
+
+    .contactebook__blok-2, .contactebook__blok-3 {
+        width: 100%;
+    } 
+
+    .contactebook__left {
+        margin: 0 auto;
+        
+    }
+}         
+
+@media screen and (max-width: 768px) {
+
 }
 
-@media (max-width:992px){
-    .container {
-        max-width: 750px;
-    }
+@media screen and (max-width: 640px) {
+    
 }
 
-@media (max-width:767px){
-    .container {
-        max-width: none;
-    }
-}
-
-@media (max-width:767px) {
-    .container {
-        max-width: none;
-    }
-}
-
-@media (max-height:767px) {
-    .container {
-        max-height: none;
-    }
-}
-
-@media (min-width:767px) {
-    .container {
-        max-width: none;
-    }
-}
-
-@media (min-height:767px) {
-    .container {
-        max-height: none;
-    }
-}*/
-
-@media screen and (max-width: 1200px) {
-        .container {
-            width: 1140px;
-        }
-        
-    }
-
-@media screen and (max-width: 1199px) {
-        .container {
-            width: 960px;  
-        }
-        .overview {
-            width: 100%;
-        }
-        .author__left {
-            width: 45%;
-        }
-        .author__right {
-            width: 45%;
-        }
-    }
-
-@media screen and (max-width: 991px) {
-        .container {
-            width: 720px;
-        }
-
-        .logosoc__wrapper {
-            display: flex;
-            background-color: #f5f5f5;
-            flex-direction: column;
-        }
-        
-        .logosoc__left {
-            width: 85%;
-
-        }
-        
-        .logosoc__right {
-            display: flex;
-            padding-top: 30px;
-            /*justify-content: center;*/
-        }
-
-        .bookwinning__book-1 {
-            max-width: 100%;
-            padding-top: 20px;
-            padding-left: 0%
-
-
-        }
-
-        .bookwinning__wrapper {
-            flex-direction: column;
-            text-align: center;
-        
-        }
-
-        .bookwinning__text-1 {
-            width: 258px;
-            max-width: 100%;
-        }
-
-
-        .bookwinning__text-2 {
-            width: 280px;
-            max-width: 100%;
-        }
-
-        .logosoc__book {
-        /*margin-left: 80px;*/
-        }
-
-        .button__number-1 {
-            font-size: 14px;
-            padding: 14px 0;
-        }
-        
-        .button__number-2 {
-            font-size: 14px;
-            padding: 12px 0;
-        }
-
-        .bookwinning__book-2 {
-            display: none;
-        }
-    }   
-
-@media screen and (max-width: 767px) {
-        .container {
-            width: 540px;
-        }
-        
-        .logosoc__wrapper {
-            display: flex;
-            background-color: #f5f5f5;
-            flex-direction: column;
-        }
-
-        .bookwinning__text-1 {
-            width: 258px;
-            max-width: 100%;
-        }
-
-
-        .bookwinning__text-2 {
-            width: 280px;
-            max-width: 100%;
-        }
-
-        .bookwinning__book-1 {
-            max-width: 100%;
-            padding-top: 20px;
-            padding-left: 0%
-        }
-
-        .logosoc__left {
-            width: 85%;
-        }
-
-        .logosoc__right {
-            display: flex;
-            padding-top: 30px;
-            /*justify-content: center;*/
-        }
-
-        .bookwinning__wrapper {
-            flex-direction: column;
-            text-align: center;
-           
-        }
-    }
-
-@media screen and (max-width: 575px) {
-        .container {
-            width: 100%;
-            padding: 0 15px;
-        }
-        
-        .logosoc__wrapper {
-            display: flex;
-            background-color: #f5f5f5;
-            flex-direction: column;
-        }
-        
-        .logosoc__left {
-            width: 85%;
-
-        }
-        
-        .logosoc__right {
-            display: flex;
-            padding-top: 30px;
-            /*justify-content: center;*/
-        }
-
-        .bookwinning__book-1 {
-            max-width: 100%;
-            padding-top: 20px;
-            padding-left: 0%
-
-
-        }
-
-        .bookwinning__wrapper {
-            flex-direction: column;
-            text-align: center;
-           
-        }
-
-        .bookwinning__text-1 {
-            width: 258px;
-            max-width: 100%;
-        }
-
-
-        .bookwinning__text-2 {
-            width: 280px;
-            max-width: 100%;
-        }
-
-        .logosoc__book {
-           /*margin-left: 80px;*/
-        }
-
-        .button__number-1 {
-            font-size: 14px;
-            padding: 14px 0;
-        }
-        
-        .button__number-2 {
-            font-size: 14px;
-            padding: 12px 0;
-        }
-
-        .bookwinning__book-2 {
-            display: none;
-        }
-
-        .author__wrapper {
-            flex-direction: column;
-        }
-
-        .author__pic {
-            width: 50%;
-        }
-
-        .author__text-1 {
-            padding-left: 0%;
-            text-align: center;
-        }
-
-        .author__text-2 {
-            padding-left: 0%;
-            text-align: center;
-        }
-
-        .author__text-3 {
-            text-align: center;
-        }
-
-        .author__text-4 {
-            text-align: center;
-        }
-
-        .author__text-5 {
-            text-align: center;
-            padding-left: 0%;
-        }
-
-        .buynow__text-1 {
-            font-size: 18px;
-            text-align: start;
-        }
-
-        .overview__text-1 {
-            text-align: left;
-        }
-
-        .overview__text-2 {
-            text-align: left;
-            font-size: 5px;
-        }
-
-        .complete__wrapper {
-            flex-direction: column;
-        }
-
-        .completeview__wrapper {
-            flex-direction: column;
-        }
-
-        .completeview__finaltips {
-            padding-left: 0%;
-        } 
-
-        .completeview__coprorate {
-            padding-left: 0%;
-        }
-
-        .buynow__text-2 {
-            font-size: 5px;
-            text-align: left;
-        }
-
-        .buildcareer__wrapper {
-            flex-direction: column;
-        }
-
-        .buildcareer__pic-1 {
-            max-width: 100%;
-            padding-left: 0%;
-        }
-
-        .socialpages__wrapper {
-            flex-direction: column;
-            max-width: 100%;
-        }
-
-        .testimonial__text-1 {
-            text-align: left;
-        }
-
-        .testimonial__text-2 {
-            font-size: 5px;
-            text-align: left;
-        }
-
-        .testimonial__pic-1 {
-            position: relative;
-            right: 70px;
-        }
-
-        .testimonialebook__text-1 {
-            text-align: left;
-            padding-left: 45px;
-            padding-top: 50px;
-        }
-
-        .testimonialebook__text-2 {
-            text-align: left;
-            padding-left: 65px
-        }
-
-        .testimonial {
-            height: 380px;
-        }
-
-        .contact__text-1 {
-            text-align: left;
-        }
-
-        .contact__text-2 {
-            text-align: left;
-            font-size: 5px;
-        }
-
-        .contactebook__left {
-            display: none;
-        }
-
-        .contactebook__right {
-           padding-left: 0%;
-        }
-
-        .contactebook__blok-1 {
-            width: 200px;
-            
-
-        }
-
-        .contactebook__blok-2 {
-            width: 200px;
-            
-        }
-
-        .contactebook__blok-3 {
-            width: 200px;
-        
-        }
-
-        .button__number-3 {
-            width: 212px;
-        }
-
-        .copyrights__wrapper {
-            flex-direction: column;
-        }
-
-        .copyrights__text-1 {
-            font-size: 11px;
-        }
-    }
-  
