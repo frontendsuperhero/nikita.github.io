@@ -14,3 +14,1047 @@ body {
     margin: 0px auto;
     padding: 0px 15px;
 }
+
+/*.yogalogo__mail-1::before {
+    /*content: "\";*/
+    /*content: "<img src="./img/11.svg" class="yogalogo__mail-2" width="20" height="20">";
+    
+} */
+
+header {
+    background-image: url("./img/mountain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.yogalogo__wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.yogologo__mail {
+    display: flex;
+}
+
+.yogalogo__pic-1, .yogalogo__pic-3 {
+    width: 20px;
+    height: 22px;
+    background-image: url(./img/11.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 18px;
+}
+
+.yogalogo__text-1, .yogalogo__text-3 {
+    padding-left: 30px;
+    margin: 0;
+    color: #fffcfb;
+}
+
+.yogalogo__text-2 {
+    position: relative;
+    right: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+/*.yogalogo__text-3::before {
+    content: "\f095";
+}*/
+
+.yogalogo__pic-3 {
+    background-image: url(./img/phone-solid.svg);
+    width: 27px;
+    height: 23px;
+    background-size: contain;
+}
+
+.yogalogo__mail, .yogalogo__phone, .yogalogo__club {
+    padding-top: 20px;
+}
+
+span {
+   color: #ff83d7; 
+}
+
+.button__number-1 {
+    background: #ff83d7;
+    color: white;
+    border-radius: 5px;
+    display: block;
+    width: 245px;
+    padding: 25px 0;
+    /*margin: 0 auto;*/
+    text-align: center;
+    font-size: 20px;
+    margin-top: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    height: 20px;
+    margin: 0;
+}
+
+.peaceful-text-1 {
+    font-size: 39px;
+    color: white;
+    margin: 0;
+    padding-bottom: 20px;
+    padding-top: 100px;
+}
+
+.peaceful-text-2 {
+    color: #fffcfb;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.peaceful__wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-left: 670px;
+    padding-bottom: 130px;
+}
+
+.yoga__text-1 {
+    color: #7d71c7;
+    text-align: center;
+    font-size: 26px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.yoga__text-2 {
+    text-align: center;
+    color: #6e6e6e;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.yogachallenge__wrapper {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.yogachallenge__text-1 {
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 20px;
+    padding-top: 8px;
+    padding-left: 66px
+}
+
+.yogachallenge__text-3 {
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.yogachallenge__text-5 {
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.yogachallenge__text-2, .yogachallenge__text-4, .yogachallenge__text-6 {
+    font-size: 15px;
+    margin: 0;
+    color: #656565;
+}
+
+.yogachallenge__text-7, .yogachallenge__text-8, .yogachallenge__text-9 {
+    margin: 0;
+    font-size: 15px;
+    padding-left: 42px;
+    line-height: 2.0em;
+    color: #656565;
+}
+
+.yogachallenge__text-3 {
+    padding-left: 77px;
+}
+
+.yogachallenge__text-5 {
+    padding-left: 62px;
+}
+
+
+ .yogachallenge__text-8 {
+    padding-left: 52px;
+}
+
+.yogachallenge__blok-1 {
+    /*padding-left: 118px;*/
+}
+
+.yogachallenge__blok-2 {
+    padding-left: 40px;
+}
+
+.yogachallenge__blok-3 {
+    padding-left: 47px;
+}
+
+.yogachallenge__pic-1 {
+    padding-left: 90px;
+    padding-bottom: 11px;
+}
+
+.yogachallenge__pic-2 {
+    padding-left: 96px;
+    padding-bottom: 10px;
+}
+
+.yogachallenge__pic-3 {
+    padding-left: 84px;
+    padding-bottom: 21px;
+}
+
+.classyoga__wrapper {
+    color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    padding-left: 290px;
+
+}
+
+.classyoga__text-1 {
+    color: #7d71c7;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.classyoga__text-2 {
+    color: #646464;
+    line-height: 1.8em;
+    font-size: 15px;
+}
+
+.classyoga__text-3 {
+    color: #646464;
+    font-size: 15px;
+    line-height: 1.8em;
+}
+
+.classyoga__spisok {
+    list-style: none;
+    color: #646464;
+    padding: 0;
+}
+
+.classyoga__spisok li {
+    padding-bottom: 15px;
+}
+
+.classyoga__spisok li::before {
+    content: "";
+    width: 10px;
+    height: 32px;
+    background-image: url("./img/shok.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-right: 20px;
+}
+
+.yog__left {
+    width: 50%;
+    background-color: #f5f5f5;
+    
+}
+
+.yog__right {
+    background-image: url("./img/woman.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 50%;
+}
+
+.yogyog {
+    display: flex;
+}
+
+/*.yog__pic-1 {
+    width: 800px;
+    background-size: cover;
+}*/
+
+.advantagesyoga {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.advantagesyoga__text-1 {
+    color: #7d71c7;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding-top: 55px;
+    
+}
+
+.advantagesyoga__text-2 {
+    color: #646464;
+    text-align: center;
+    line-height: 1.8em;
+    font-size: 15px;
+}
+
+.yogaitems__wrapper {
+    display: flex;
+    padding-bottom: 62px;
+    padding-left: 91px;
+    padding-top: 40px;
+}
+
+.yogaitems__column-1 {
+    flex-direction: column;
+}
+
+.yogaitems__column-2 {
+    flex-direction: column;
+}
+
+.yogaitems__text-1, .yogaitems__text-3, .yogaitems__text-5, .yogaitems__text-7, .yogaitems__text-9, .yogaitems__text-11 {
+    color: #444444;
+} 
+
+.yogaitems__text-2, .yogaitems__text-4, .yogaitems__text-6, .yogaitems__text-8, .yogaitems__text-10, .yogaitems__text-12 {
+    color: #737373;
+}
+
+.yogaitems__pic-1 {
+    padding: 0;
+    padding-left: 197px;
+    position: relative;
+    left: 30px;
+}
+
+.yogaitems__text-1 {
+    padding-left: 142px;
+    position: relative;
+    left: 31px;
+}
+
+.yogaitems__text-2 {
+    position: relative;
+    left: 20px;
+}
+
+.yogaitems__blok-2 {
+    padding-top: 13px;
+}
+
+.yogaitems__blok-4 {
+    padding-top: 6px;
+}
+
+.yogaitems__pic-2 {
+    padding-left: 200px;
+    position: relative;
+    right: -68px;
+}
+
+.yogaitems__text-3 {
+    position: relative;
+    left: 198px;
+    margin: 0;
+}
+
+.yogaitems__text-4 {
+    position: relative;
+    left: 58px;
+}
+
+.yogaitems__pic-3 {
+    position: relative;
+    left: 147px;
+}
+
+.yogaitems__text-5 {
+    padding-left: 12px;
+}
+
+.yogaitems__text-6 {
+    position: relative;
+    right: 72px;
+}
+
+.yogaitems__pic-5 {
+    position: relative;
+    right: 166px;
+}
+
+.yogaitems__text-7 {
+    position: relative;
+    right: 152px;
+}
+
+.yogaitems__text-8 {
+    position: relative;
+    right: 150px;
+}
+
+.yogaitems__pic-6 {
+    position: relative;
+    right: 43px;
+}
+
+.yogaitems__text-9 {
+    position: relative;
+    right: 29px;
+}
+
+.yogaitems__text-10 {
+    position: relative;
+    right: 27px;
+}
+
+.yogaitems__pic-7 {
+    position: relative;
+    right: -78px
+}
+
+.yogaitems__text-11 {
+    position: relative;
+    left: 92px;
+}
+
+.yogaitems__text-12 {
+    position: relative;
+    left: 93px;
+}
+
+.yogaitems__blok-1 {
+    padding-top: 21px;
+}
+
+.yogaclasses__text-1 {
+    color: #7d71c7;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding-top: 55px;
+}
+
+.yogaclasses__text-2 {
+    color: #646464;
+    text-align: center;
+    line-height: 1.8em;
+    font-size: 15px;
+}
+
+.yogaclasses {
+    background-color: #f5f5f5;
+}
+
+.yogatrainer__wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 26px;
+    padding-bottom: 28px;
+    
+}
+
+.yogatrainer__blok-1 {
+    padding-right: 38px;
+
+}
+
+.yogatrainer__blok-3 {
+    padding-left: 38px;
+}
+
+.yogatrainer__blok-4 {
+    padding-left: 40px;
+}
+
+.yogatrainer__text-2, .yogatrainer__text-4, .yogatrainer__text-6, .yogatrainer__text-8 {
+    font-size: 14px;
+    color: #7b7b7b;
+    text-align: center;
+}
+
+.yogatrainer__text-1, .yogatrainer__text-3, .yogatrainer__text-5, .yogatrainer__text-7 {
+    text-align: center;
+    margin: 0;
+}
+
+.yogatrainer__text-3 {
+    padding-top: 14px;
+}
+
+.yogatrainer__text-5 {
+    padding-top: 25px;
+}
+
+.yogatrainer__text-7 {
+    padding-top: 19px;
+}
+
+.schedule__text-1 {
+    color: #7d71c7;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding-top: 55px;
+    text-transform: uppercase;
+}
+
+.schedule__text-2 {
+    color: #646464;
+    text-align: center;
+    line-height: 1.8em;
+    font-size: 15px;
+    padding-bottom: 40px;
+}
+
+.weekdaysform__wrapper {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.weekdaysform__left {
+    width: 50%;
+    padding-top: 16px;
+    border: 1px double black;
+    
+}
+
+.weekdaysform__right {
+    padding-left: 100px;
+    padding-top: 59px;
+}
+
+
+.weekdaysform__text-1 {
+    color: #7d71c7;
+    font-size: 24px;
+    text-align: center;
+}
+
+.weekdaysform__text-2 {
+    text-align: center;
+    color: #919191;
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+
+.weekdaysforma__wrapper {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.weekdaysforma__blok-1 {
+    /*width: 50%;*/
+}
+
+.weekdaysforma__blok-2 {
+   /*width: 50%;*/
+}
+
+.weekdaysforma2__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.weekdaysforma3__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.weekdaysforma4__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.weekdaysforma__blok-1 {
+    width: 190px;
+    height: 41px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-color: #dddddd;
+    border-radius: 5%;
+    
+    
+}
+
+.weekdaysforma__blok-2, .weekdaysforma__blok-4, .weekdaysforma__blok-6 {
+    margin-left: 20px;
+}
+
+.weekdaysforma__blok-10 {
+    width: 406px;
+    height: 80px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-color: #dddddd;
+    border-radius: 5%;
+    
+}
+
+.weekdaysforma__blok-2 {
+    margin-left: 31px;
+}
+
+.weekdaysforma__button-1 {
+    background: #7c6dd6;
+    color: white;
+    border-radius: 5px;
+    display: block;
+    width: 400px;
+    padding: 25px 0;
+    /*margin: 0 auto;*/
+    text-align: center;
+    font-size: 20px;
+    margin-top: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    height: 10px;
+}
+
+.weekdaysforma__button {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 37px;
+}
+
+.weekdays__text-1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 19px;
+    color: #7c6dd6;
+    padding-top: 54px;
+}
+
+.weekdays__text-2,.weekdays__text-4 {
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.weekdays__text-3, .weekdays__text-5 {
+    text-align: center;
+    color: #646464;
+    font-size: 13px;
+}
+
+.expert__text-1 {
+    color: #7d71c7;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding-top: 55px;
+}
+
+.expert__text-2 {
+    color: #646464;
+    text-align: center;
+    line-height: 1.8em;
+    font-size: 15px;
+}
+
+.exp {
+    background-color: #f5f5f5;
+}
+
+.experttrainers__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.experttrainers__text-1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.experttrainers__text-2 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.queries__text-1 {
+    color: #7d71c7;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding-top: 55px;
+}
+
+.queries__text-2 {
+    color: #646464;
+    text-align: center;
+    line-height: 1.8em;
+    font-size: 15px;
+}
+
+.queries__button-1 {
+    background: #7c6dd6;
+    color: white;
+    border-radius: 5px;
+    display: block;
+    width: 250px;
+    padding: 30px 0;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    height: 10px;
+}
+
+.queries__text-3 {
+    text-align: center;
+    color: #646464;
+}
+
+.phone__number-1 {
+    text-decoration: none;
+    color: black;
+}
+
+.queries__text-3 {
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.copy {
+    background-color: #7c6dd6;
+}
+
+.copyright__text-1 {
+    color: white;
+}
+
+.copyright {
+    padding: 30px 0;
+}
+
+@media screen and (max-width: 992px) {
+    .peaceful__wrapper {
+        padding: 0%;
+        text-align: center;
+    }
+
+    .button__number-1 {
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    .yog__right {
+        display: none;
+    }
+
+    .yog__left {
+        width: 100%;
+    }
+
+    .yogaitems__column-1 {
+        width: 50%;
+    }
+
+    .yogaitems__column-2 {
+        width: 50%;
+    }
+
+    .yogaitems__pic-4 {
+        display: none;
+    }
+
+    .yogatrainer__pic-1 {
+        padding-left: 166px;
+    }
+
+    .yogatrainer__pic-2 {
+        padding-left: 153px;
+    }
+
+    .yogatrainer__wrapper {
+        flex-wrap: wrap;
+    }
+
+    .yogatrainer__blok-1, .yogatrainer__blok-2, .yogatrainer__blok-3, .yogatrainer__blok-4 {
+        width: 50%;
+    }
+
+    .yogatrainer__text-1 {
+        padding-left: 80px;
+    }
+
+    .yogatrainer__text-2 {
+        padding-left: 86px;
+    }
+
+    .yogatrainer__pic-3 {
+        padding-left: 131px;
+    }
+
+    .yogatrainer__pic-4 {
+        padding-left: 129px;
+    }
+
+    .weekdaysform__wrapper {
+        flex-direction: column;
+    }
+
+    .weekdaysform__left {
+        width: 100%;
+    }
+    
+    .weekdaysform__right {
+        padding: 0%;
+    }
+
+    .experttrainers__wrapper {
+        flex-wrap: wrap;
+    }
+
+    .experttrainers__blok-1, .experttrainers__blok-2, .experttrainers__blok-3, .experttrainers__blok-4 {
+        width: 50%;
+    }
+
+    .experttrainers__pic-1 {
+        padding-left: 136px;
+    }
+
+    .experttrainers__pic-2 {
+        padding-left: 110px;
+    }
+
+    .experttrainers__pic-3 {
+        padding-left: 137px;
+    }
+
+    .experttrainers__pic-4 {
+        padding-left: 139px;
+        
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .classyoga__wrapper {
+        padding: 0;
+        text-align: center;
+    }
+
+    .yogachallenge__wrapper {
+        flex-wrap: wrap;
+    }
+
+    .yogachallenge__blok-1, .yogachallenge__blok-2 {
+        width: 50%;
+    }
+
+    .classyoga__text-1 {
+        padding-top: 20px;
+    }
+
+    .classyoga__text-3 {
+        padding-bottom: 30px;
+    }
+
+    .yogaitems__wrapper {
+        display: none;
+    }
+
+    .advantagesyoga__text-1 {
+        display: none;
+    }
+
+    .advantagesyoga__text-2 {
+        display: none;
+    }
+
+    .yogatrainer__pic-1 {
+        padding-left: 115px;
+    }
+
+    .yogatrainer__pic-2 {
+        padding-left: 92px;
+    }
+
+    .yogatrainer__pic-3 {
+        padding-left: 68px;
+    }
+
+    .yogatrainer__pic-4 {
+        padding-left: 61px;
+    }
+
+    .experttrainers__pic-1 {
+        padding-left: 72px;
+
+    }
+
+    .experttrainers__pic-2 {
+        padding-left: 45px;
+    }
+
+    .experttrainers__pic-3 {
+        padding-left: 71px;
+    }
+
+    .experttrainers__pic-4 {
+        padding-left: 75px;
+    }
+
+    .yogachallenge__blok-3 {
+        padding: 0%;
+    }
+
+
+}
+
+@media screen and (max-width: 640px) {
+    .yogalogo__pic-2{
+        display: none;
+    }
+
+    .yogalogo__text-2 {
+        display: none;
+    }
+
+    .yogachallenge__blok-1, .yogachallenge__blok-2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .yogachallenge__pic-1 {
+
+    }
+
+    .yogatrainer__blok-1, .yogatrainer__blok-2, .yogatrainer__blok-3, .yogatrainer__blok-4 {
+        width: 100%;
+    }
+
+    .experttrainers__blok-1, .experttrainers__blok-2, .experttrainers__blok-3, .experttrainers__blok-4 {
+        width: 100%;
+    }
+
+    .yogachallenge__blok-1, .yogachallenge__blok-2 {
+        padding: 0%;
+    }
+
+    .yogachallenge__pic-1, .yogachallenge__pic-2 {
+        padding: 0%;
+    }
+
+    .yogachallenge__text-1,  .yogachallenge__text-2 {
+        padding: 0%;
+    }
+    
+    .yogachallenge__text-7 {
+        padding-bottom: 20px;
+    }
+
+    .yogachallenge__text-3 {
+        padding: 0;
+    }
+    
+    .yogachallenge__text-8 {
+        padding-bottom: 20px;
+    }
+
+    .yogachallenge__pic-3 {
+        padding-left: 100px;
+    }
+
+    .yogachallenge__text-5 {
+        padding: 0%;
+        text-align: center;
+    }
+
+    .weekdaysforma__blok-1 {
+        width: 100px;
+    }
+
+    .weekdaysforma__blok-10 {
+        width: 203px;
+    }
+
+    .yogatrainer__text-1 {
+        padding: 0%;
+        padding-left: 21px;
+    }
+
+    .yogatrainer__text-2 {
+        padding: 0%;
+
+    }
+
+    .yogatrainer__pic-1 {
+        padding-left: 70px;
+    }
+
+    .yogatrainer__text-1, .yogatrainer__text-2, .yogatrainer__text-3, .yogatrainer__text-4, .yogatrainer__text-5, .yogatrainer__text-6, {
+        padding: 0%;
+        text-align: center;
+    }
+
+    .yogatrainer__pic-2 {
+        padding-left: 77px;
+    }
+
+    .yogatrainer__pic-3 {
+        padding-left: 45px;
+    }
+
+    .yogatrainer__text-5 {
+        padding-right: 27px;
+    }
+
+    .weekdaysforma__button-1 {
+        width: 280px;
+    }
+
+    .yogatrainer__pic-4 {
+        padding-left: 47px;
+    }
+
+    .yogatrainer__text-7 {
+        padding-right: 14px;
+    }
+
+    .yogalogo__text-3 {
+        font-size: 13px;
+    }
+
+    .yogalogo__text-1 {
+        font-size: 13px;
+    }
+
+    .peaceful-text-1 {
+        font-size: 37px;
+        padding-bottom: 36px;
+    }
+
+    .peaceful-text-2 {
+        font-size: 14px;
+        padding-bottom: 52px;
+    }
+
+    .yogachallenge__text-7 {
+        padding-bottom: 40px;
+    }
+
+    .yogachallenge__text-8 {
+        padding-bottom: 40px;
+    }
+
+ 
+    
+}
